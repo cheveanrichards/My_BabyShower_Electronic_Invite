@@ -1,0 +1,102 @@
+body {
+    font-family: 'Petit Formal Script', cursive;
+    margin:0;
+    color: hsl(59, 75%, 23%);
+    overflow-y: scroll;
+}
+
+.layla-words{
+  color: hsl(59, 75%, 23%);
+}
+.card-header{
+  background-color: rgb(233, 205, 218);
+}
+.card-body{
+  background-color:rgb(248, 237, 246)
+}
+.jumbotron{
+margin: 0;
+padding: 30px;
+background-color: #ffe2f2b6;
+background-image: linear-gradient(to right, #ffffff, #fde6e7, #ffd0d0);
+}
+.btn-primary {
+  color: #212529;
+  background-color: rgb(204, 119, 159);
+  border-color: #c25b8f
+}
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #be528d;
+  border-color: #d38ac3
+}
+
+.row-content {
+padding: 0px 0;
+border-bottom: 1px ridge;
+min-height: 150px;
+}
+.site-footer {
+  background-image: linear-gradient( #fde6e7, rgb(250, 249, 229));
+  padding: 20px 0;
+}
+.notice{
+  background-color: rgb(231, 87, 87);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  
+  #balloon-container {
+    height: 400px;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .balloon {
+    height: 125px;
+    width: 105px;
+    border-radius: 75% 75% 70% 70%;
+    position: absolute;
+  }
+  
+  .balloon:before {
+    content: "";
+    height: 75px;
+    width: 1px;
+    padding: 1px;
+    background-color: #FDFD96;
+    display: block;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .balloon:after {
+      content: "▲";
+      text-align: center;
+      display: block;
+      position: absolute;
+      color: inherit;
+      top: 120px;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  
+  @keyframes float {
+    from {transform: translateY(100vh);
+    opacity: 1;}
+    to {transform: translateY(-300vh);
+    opacity: 0;}
+  }
+
+  .background-pic{
+    opacity: 50%;
+  }

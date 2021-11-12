@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Petit+Formal+Script&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css" />
+      
+    <title>Laiyla's Baby Shower EInvite </title>
+</head>
+
+<body>
+  
+
+    
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="layla-words"><strong>Laiyla's Baby Shower</strong></h1>
+                    <p><strong><u>Exclusive Invite</u></strong></p>
+                </div>      
+            </div>
+        </div>
+    </header>
+    
+        <div  class="container">
+            <div class="row row-content mt-5 justify-content-center">
+                <div id="balloon-container" ></div>
+                <div class="col-10 col-sm-8">
+                    <div>
+                        <!-- <ul class="nav nav-tabs">
+                            <li class="nav-item"><a class="nav-link active" href="#bootstrap" role ="tab" data-toggle="tab">Bootstrap Outfitters</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#git" role ="tab" data-toggle="tab">Git Out Expeditions</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#mongo" role ="tab" data-toggle="tab">Mongo Fly Shop</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#node" role ="tab" data-toggle="tab">Node Outdoor Apparel</a></li>
+                        </ul> -->
+                        <div id="accordion">
+                            <!-- <div role="tabpanel" class="tab-pane fade show active" id="bootstrap"> -->
+                            <div class="card">
+                                <div role="tab" class="card-header">
+                                    <h4>
+                                        <a class="collapsed text-decoration-none text-dark" data-toggle="collapse" data-target="#bootstrap">
+                                            <h3 class="text-center layla-words">Event Details</h3>
+                                        </a>
+                                    </h4>
+                                    <div class="collapse show" id="bootstrap" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Google Maps link here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div role="tabpanel" class="tab-pane fade show" id="git"> -->
+                            <div class="card">
+                                <div role="tab" class="card-header">
+                                    <h4>
+                                        <a class="collapsed text-decoration-none text-dark" data-toggle="collapse" data-target="#git">
+                                            <h3 class="text-center layla-words">Registry</h3>
+                                        </a>
+                                    </h4>
+                                    <div class="collapse" id="git" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p >Registry link here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div role="tab" class="card-header">
+                                    <h4>
+                                        <a class="collapsed text-decoration-none text-dark" data-toggle="collapse" data-target="#xoom">
+                                            <h3 class="text-center layla-words">Zoom</h3>
+                                        </a>
+                                    </h4>
+                                    <div class="collapse" id="xoom" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p >Zoom link here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div role="tabpanel" class="tab-pane fade show" id="mongo"> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="balloon-container2" class="d-none d-sm-block" ></div>    
+            </div> 
+        
+
+        <div class="container">
+            <div class="row row-content justify-content-center">
+                <div class="col col-sm-6 align-center">
+                    <h5 class="text-center text-light mt-2 notice"><strong>Read Important Note!</strong> Please ensure that you are fully vacinated and bring proof of vacination to attend.
+                        If you are not fully vacinate Please bring a negative COVID-19 test to attend</h5>
+                    <br/>
+                    <h2 class="text-center"><strong>RSVP</strong></h2>
+                </div>
+                <div class="col-10">
+                    <hr />
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstname" class="col-md-2 col-form-label"><strong>First Name</strong></label> 
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastname" class="col-md-2 col-form-label"><strong>Last Name</strong></label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="areaCode" class="col-md-2 col-form-label"><strong>Contact Tel.</strong></label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area Code"/>
+                            </div>
+                            <div classs="col-7">
+                                <input type="tel" class="form-control ml-3" name="telNum" placeholder="Tel. number"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label"><strong>Email</strong></label>
+                            <div class="col-md-10">  
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
+                            </div>
+                        </div>
+                        <div class="form-group row"> 
+                            <label for="feedback" class="col-md-2 col-form-label"><strong>Additional Guest in Party</strong></label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="feedback" name="feedback" rows="8" placeholder="Name(s) of Guest"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button class="btn btn-primary" type="submit">Send Feedback</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    
+
+        <footer class="site-footer">
+            <div  class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <i class="fa fa-phone fa-lg text-primary"></i> ??phonw<br />
+                        <i class="fa fa-envelope-o fa-lg text-primary"></i> ???.com
+                    </div>
+                </div>
+                <iframe width="100%" height="10px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1345278496&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chevmuzik" title="Chappa" target="_blank" style="color: #cccccc; text-decoration: none;">Chappa</a> · <a href="https://soundcloud.com/chevmuzik/sets/babyshow" title="babyshow" target="_blank" style="color: #cccccc; text-decoration: none;">babyshow</a></div>
+            </div>        
+        </footer>
+
+      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="floatingBallons.js"></script>
+      <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+        </script>
+
+</body>
+
+</html>
